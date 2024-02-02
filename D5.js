@@ -103,7 +103,11 @@ console.log("trims:", justTrims);
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
-
+let numero = 0;
+while (numero <= 32) {
+  console.log(numero);
+  numero++;
+}
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
